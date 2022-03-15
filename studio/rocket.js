@@ -8,7 +8,6 @@ var Rocket = /** @class */ (function () {
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
     }
-    //payload.masskg
     Rocket.prototype.sumMass = function (items) {
         var sum = 0;
         for (var i = 0; i < items.length; i++) {
